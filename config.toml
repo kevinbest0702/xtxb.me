@@ -1,8 +1,8 @@
 baseURL = "https://kevinbest0702.github.io/xtxb.me/" 
 languageCode = "zh-CN"
-title = "Kevin's Blog" # 修改“”中的内容为自己的网站名字
-theme = "hyde" # 如果以后启用其它主题，在这里替换主题名字
-disqusShortname = "" # 如果使用 disqus 评论系统，在这里填写自己的 disqus 用户名 
+title = "Kevin's Blog"
+theme = "hugo-theme-cleanwhite" # 如果以后启用其它主题，在这里替换主题名字
+#disqusShortname = "" # 如果使用 disqus 评论系统，在这里填写自己的 disqus 用户名 
 hasCJKLanguage = true
 enableEmoji = true
 
@@ -12,8 +12,8 @@ enableEmoji = true
 [Menus] # 边栏目录
   main = [
       {Name = "Archives", URL = "https://kevinbest0702.github.io/xtxb.me/posts/"},
-      {Name = "Tags", URL = "https://kevinbest0702.github.io/xtxb.me/tags/"},
-      {Name = "Photos", URL = "https://kevinbest0702.github.io/xtxb.me/photos/"}
+      #{Name = "Tags", URL = "https://kevinbest0702.github.io/xtxb.me/tags/"},
+      #{Name = "Photos", URL = "https://kevinbest0702.github.io/xtxb.me/photos/"}
   ]
 
 [params] # 指定发布的文件目录和博客描述
